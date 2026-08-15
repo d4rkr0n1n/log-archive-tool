@@ -12,9 +12,9 @@ The tool should run from the command line, accept the log directory as an argume
 - The tool should log the date and time of the archive to a file.
 
 ## Commands
-- vagrant up - For starting and provisioning the VM using vagrant.
-- vagrant reload - For applying configuration changes using vagrant.
-- vagrant provision - For provisioning file and shell using vagrant.
-- vagrant destroy; vagrant up - For destroying and provisioning the VM in sequence using vagrant.
+- ``vagrant up`` - For starting and provisioning the VM using vagrant.
+- ``vagrant reload`` - For applying configuration changes using vagrant.
+- ``vagrant provision`` - For provisioning file and shell using vagrant.
+- ``vagrant destroy; vagrant up`` - For destroying and provisioning the VM in sequence using vagrant.
 
 ## Project URL: https://roadmap.sh/projects/log-archive-tool
