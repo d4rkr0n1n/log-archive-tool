@@ -5,6 +5,16 @@ In this project, I have built a tool to archive logs on a set schedule by compre
 
 The most common location for logs on a unix based system is /var/log.
 
+## Repotree
+```
+├── scripts
+│   ├── log-archive.sh
+│   └── setup.sh
+├── .gitignore
+├── README.md
+└── Vagrantfile
+```
+
 ## Specification
 The tool should run from the command line, accept the log directory as an argument, compress the logs, and store them in a new directory. The user should be able to:
 - Provide the log directory as an argument when running the tool. ``log-archive <log-directory>``
